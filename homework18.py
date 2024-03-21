@@ -4,4 +4,4 @@ def test_function():
     inner_function()
 
 test_function()
-inner_function()
+inner_function()  # в глобальном пространстве inner_function не видно
